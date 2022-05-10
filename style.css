@@ -10,7 +10,6 @@
 
 h1 {
   display: inline;
-  font-weight: 800;
   font-size: 2.5rem;
   vertical-align: middle;
   line-height: 70px;
@@ -28,7 +27,7 @@ i {
 
 p {
   display: inline;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 section {
@@ -36,8 +35,8 @@ section {
 }
 
 body {
-  background-color: rgb(198, 204, 209);
-  font-family: "Roboto", sans-serif;
+  background-color: rgb(246, 246, 246);
+  font-family: Arial, Helvetica, sans-serif;
   color: #444;
 }
 
@@ -68,13 +67,18 @@ body {
   margin-right: 8px;
 }
 
+.buttons {
+    margin: 40px 40px;
+    height: 50px;
+  }
+
 .btn {
-  padding: 7px 12px;
+  padding: 6px 12px;
   background-color: rgb(71, 173, 241);
   color: #fff;
   border: none;
   border-radius: 5px;
-  margin: 10px 0;
+  margin: 15px 0;
   cursor: pointer;
   font-size: 0.7rem;
 }
@@ -85,7 +89,7 @@ body {
   padding: 6px 10px;
   border-radius: 10px;
   font-weight: normal;
-  margin-left: 5px;
+  margin-left: 3px;
 }
 
 .tasks {
@@ -133,7 +137,7 @@ body {
 
 main {
   background-color: #fff;
-  width: 70%;
+  width: 40%;
   height: 580px;
   margin: 40px auto 20px;
   border-radius: 5px;
@@ -141,7 +145,7 @@ main {
 
 #main-header {
   height: 50px;
-  border-bottom: 2px solid rgb(198, 204, 209);
+  border-bottom: 2px solid rgb(246, 246, 246);
 }
 
 #logo {
@@ -149,7 +153,4 @@ main {
   margin-left: 20px;
 }
 
-.buttons {
-  margin: 40px;
-  height: 50px;
-}
+
