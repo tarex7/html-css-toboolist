@@ -19,6 +19,7 @@ h1 {
 
 h3 {
   font-weight: 800;
+  margin-bottom: 10px;
 }
 
 i {
@@ -54,6 +55,18 @@ body {
   font-size: 0.7rem;
   margin-right: 8px;
 }
+.cross {
+  display: inline-block;
+  color: rgb(234, 66, 55);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px rgb(234, 66, 55) solid;
+  line-height: 16px;
+  text-align: center;
+  font-size: 0.6rem;
+  margin-right: 8px;
+}
 
 .btn {
   padding: 7px 12px;
@@ -67,15 +80,38 @@ body {
 }
 
 .label {
-    font-size: 0.6rem;
-    color: #fff;
-    background:rgb(71, 173, 241) ;
-    padding:  6px 10px;
-    border-radius: 10px;
-    font-weight: normal;
+  font-size: 0.6rem;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-weight: normal;
+  margin-left: 5px;
 }
 
+.tasks {
+    margin: 20px 0;
+}
 
+.editorial {
+  background: rgb(71, 173, 241);
+}
+
+.goals {
+  background-color: rgb(156, 114, 228);
+}
+.recruiting {
+  background-color: rgb(100, 192, 169);
+}
+
+.mobile {
+  background-color: rgb(242, 158, 51);
+}
+.website {
+  background-color: rgb(216, 99, 161);
+}
+.sales {
+  background-color: rgb(176, 201, 38);
+}
 
 #section-btn {
   background-color: #fff;
@@ -88,7 +124,6 @@ body {
   width: 90%;
   height: 100%;
   margin: 0 auto;
-  border: 1px red solid;
 }
 
 #page-header {
@@ -99,8 +134,8 @@ body {
 main {
   background-color: #fff;
   width: 70%;
-  height: 80vh;
-  margin: 50px auto 20px;
+  height: 580px;
+  margin: 40px auto 20px;
   border-radius: 5px;
 }
 
@@ -117,5 +152,4 @@ main {
 .buttons {
   margin: 40px;
   height: 50px;
-  border: 1px red solid;
 }
