@@ -18,7 +18,6 @@ h1 {
 
 h3 {
   font-weight: 800;
-  margin-bottom: 10px;
 }
 
 i {
@@ -30,104 +29,26 @@ p {
   font-weight: 600;
 }
 
-section {
-  margin: 30px 0;
-}
-
 body {
   background-color: rgb(246, 246, 246);
   font-family: Arial, Helvetica, sans-serif;
   color: #444;
+  letter-spacing: -.5px;
 }
 
-/* Utilities */
-
-.checked {
-  display: inline-block;
-  color: rgb(108, 196, 175);
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  border: 1px rgb(108, 196, 175) solid;
-  line-height: 18px;
-  text-align: center;
-  font-size: 0.7rem;
-  margin-right: 8px;
-}
-.cross {
-  display: inline-block;
-  color: rgb(234, 66, 55);
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  border: 1px rgb(234, 66, 55) solid;
-  line-height: 16px;
-  text-align: center;
-  font-size: 0.6rem;
-  margin-right: 8px;
-}
-
-.buttons {
-    margin: 40px 40px;
-    height: 50px;
-  }
-
-.btn {
-  padding: 6px 12px;
-  background-color: rgb(71, 173, 241);
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  margin: 15px 0;
-  cursor: pointer;
-  font-size: 0.7rem;
-}
-
-.label {
-  font-size: 0.6rem;
-  color: #fff;
-  padding: 6px 10px;
-  border-radius: 10px;
-  font-weight: normal;
-  margin-left: 3px;
-}
-
-.tasks {
-    margin: 20px 0;
-}
-
-.editorial {
-  background: rgb(71, 173, 241);
-}
-
-.goals {
-  background-color: rgb(156, 114, 228);
-}
-.recruiting {
-  background-color: rgb(100, 192, 169);
-}
-
-.mobile {
-  background-color: rgb(242, 158, 51);
-}
-.website {
-  background-color: rgb(216, 99, 161);
-}
-.sales {
-  background-color: rgb(176, 201, 38);
-}
-
-#section-btn {
-  background-color: #fff;
-  color: rgb(198, 204, 209);
-  border: 1px solid rgb(198, 204, 209);
-  margin-left: 5px;
+section {
+  margin: 30px 0;
 }
 
 .container {
   width: 90%;
   height: 100%;
   margin: 0 auto;
+}
+
+.buttons {
+  margin: 40px 40px;
+  height: 50px;
 }
 
 #page-header {
@@ -153,4 +74,79 @@ main {
   margin-left: 20px;
 }
 
+/* Utilities */
 
+.icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  line-height: 18px;
+  text-align: center;
+  font-size: 0.7rem;
+  margin-right: 8px;
+}
+
+.check {
+  color: rgb(108, 196, 175);
+  border: 1px rgb(108, 196, 175) solid;
+}
+
+.cross {
+  color: rgb(234, 66, 55);
+  border: 1px rgb(234, 66, 55) solid;
+  line-height: 16px;
+  font-size: 0.6rem;
+}
+
+.btn {
+  padding: 6px 12px;
+  background-color: rgb(71, 173, 241);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 15px 0;
+  cursor: pointer;
+  font-size: 0.7rem;
+}
+
+#section-btn {
+  background-color: #fff;
+  color: rgb(198, 204, 209);
+  border: 1px solid rgb(198, 204, 209);
+  margin-left: 5px;
+}
+
+.label {
+  font-size: 0.6rem;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-weight: normal;
+  margin-left: 3px;
+}
+
+.tasks {
+  margin: 12px 0 20px;
+}
+
+.editorial {
+  background: rgb(71, 173, 241);
+}
+
+.goals {
+  background-color: rgb(156, 114, 228);
+}
+.recruiting {
+  background-color: rgb(100, 192, 169);
+}
+
+.mobile {
+  background-color: rgb(242, 158, 51);
+}
+.website {
+  background-color: rgb(216, 99, 161);
+}
+.sales {
+  background-color: rgb(176, 201, 38);
+}
