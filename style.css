@@ -8,6 +8,7 @@
 
 body {
   background-color: rgb(226, 226, 226);
+  font-family: 'Roboto', sans-serif;
 }
 
 #page-header {
@@ -27,3 +28,15 @@ main {
     height: 70px;
     border-bottom: 3px solid rgb(226, 226, 226);
 }
+
+#logo {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+h1 {
+    display: inline;
+    font-weight: 800;
+    font-size: 2.5rem;
+    vertical-align: middle;
+line-height: 70px; }
