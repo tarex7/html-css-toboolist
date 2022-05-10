@@ -1,0 +1,29 @@
+/* Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(226, 226, 226);
+}
+
+#page-header {
+  background-color: #fff;
+  height: 80px;
+}
+
+main {
+  background-color: #fff;
+  width: 70%;
+  height: 80vh;
+  margin: 50px auto 20px;
+  border-radius: 10px;
+}
+
+#main-header {
+    height: 70px;
+    border-bottom: 3px solid rgb(226, 226, 226);
+}
